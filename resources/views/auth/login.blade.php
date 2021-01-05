@@ -52,9 +52,13 @@
                     <button type="submit" class="bg-blue-500 text-white px-4 py-3 rounded font-medium w-full">Login</button>
                 </div>
                 
-                <div class="mt-5 float-center">
+                <div class="mt-5">
                    <a href="{{ route('facebook.login') }}">Login with Facebook</a>
                 </div>
+
+                <div class="mt-2">
+                    <a href="{{ route('github.login') }}">Login with Github</a>
+                 </div>
 
             </form>
         </div>
