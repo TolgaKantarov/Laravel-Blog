@@ -22,6 +22,8 @@ Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'store']);
+Route::get('/login/facebook', [LoginController::class, 'facebook'])->name('facebook.login');
+Route::get('/login/facebook/redirect', [LoginController::class, 'facebookRedirect'])->name('facebook.login.redirect');
 
 Route::post('/logout', [LogoutController::class, 'store'])->name('logout');
 

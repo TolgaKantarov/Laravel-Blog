@@ -51,6 +51,10 @@
                 <div>
                     <button type="submit" class="bg-blue-500 text-white px-4 py-3 rounded font-medium w-full">Login</button>
                 </div>
+                
+                <div class="mt-5 float-center">
+                   <a href="{{ route('facebook.login') }}">Login with Facebook</a>
+                </div>
 
             </form>
         </div>
